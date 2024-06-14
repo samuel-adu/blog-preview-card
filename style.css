@@ -58,6 +58,12 @@ a:hover {
   margin-bottom: 12px;
   font-size: 12px;
   font-weight: 700;
+  cursor: pointer;
+}
+
+.tag:hover {
+  color: var(--yellow);
+  background-color: var(--black);
 }
 
 .date {
@@ -74,6 +80,11 @@ a:hover {
   font-weight: 800;
   display: block;
   margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.heading:hover {
+  color: var(--yellow);
 }
 
 .card__text {
@@ -92,6 +103,12 @@ a:hover {
 .avatar {
   width: 32px;
   height: 32px;
+  cursor: pointer;
+}
+
+.avatar:hover {
+  border: 1px solid var(--yellow);
+  border-radius: 50%;
 }
 
 .name {
