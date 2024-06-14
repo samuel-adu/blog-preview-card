@@ -40,7 +40,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  filter: drop-shadow(12px 12px var(--black));
+  border: 1px solid var(--black);
+  box-shadow: 12px 12px var(--black);
 }
 
 .card__image {
